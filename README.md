@@ -1,4 +1,4 @@
-📊 Customer Churn Analysis 🔍
+                                                                                              📊 Customer Churn Analysis 🔍
 📄 Project Overview
 This project aims to analyze customer churn within a telecommunications company using a dataset containing customer demographics, services, and account information. The goal is to identify patterns and factors contributing to customer churn and provide insights to improve retention strategies..
 
