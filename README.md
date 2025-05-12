@@ -1,18 +1,6 @@
 📊 Customer Churn Analysis
 This project explores customer churn behavior using a telecom dataset. The goal is to understand the reasons why customers leave and to visualize churn patterns through charts and plots using Python.
 
-📁 Project Structure:
-├── Customer_Churn_Analysis.ipynb  # Main Jupyter Notebook
-├── Customer Churn.csv             # Dataset
-├── images/                        # Output visualizations
-│   ├── churn_count.png
-│   ├── churn_pct.png
-│   ├── senior_citizen_churn.png
-│   ├── contract_churn.png
-│   ├── tenure_churn.png
-│   ├── payment_method_churn.png
-│   └── services_based_churns.png
-
 🧰 Tools Used
 Python
 Pandas
