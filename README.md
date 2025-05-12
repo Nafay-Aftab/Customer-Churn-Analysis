@@ -34,12 +34,19 @@ Columns like SeniorCitizen are transformed into categorical labels (Yes/No) for 
 
 📊 Visualizations:
 This project includes several visualizations to help understand customer churn patterns:
+
 Churn Distribution: A bar chart showing the count and percentage of customers who churned vs. those who stayed.
+
 Senior Citizens vs Non-Senior Citizens Churn: Insights into churn based on senior citizen status.
+
 Churn by Tenure: How customer tenure impacts churn.
+
 Contract Type Churn Analysis: Comparison of churn based on contract types.
+
 Payment Method Churn: Analysis of churn patterns based on payment methods.
+
 Service Subscription Impact: Multiple countplots showing churn behavior across various services like PhoneService, TechSupport, StreamingTV, etc.
+
 All visualizations are saved in the /images folder.
 
 💻 How to Run:
@@ -62,10 +69,15 @@ Make sure the Customer Churn.csv file is in the same directory as the notebook.
 📈 Analysis Insights:
 
 Churn Distribution: The analysis shows the overall churn rate and breaks it down by contract types, payment methods, and other factors.
+
 Senior Citizens: Senior citizens display a distinct churn pattern when compared to non-senior citizens.
+
 Tenure: Customers with shorter tenures tend to have higher churn rates.
+
 Contract Type: Month-to-month contracts are linked to higher churn rates compared to longer-term contracts.
+
 Payment Method: Customers using electronic checks tend to churn at higher rates.
+
 Service Subscriptions: Subscriptions to services like TechSupport, StreamingTV, and OnlineSecurity have a significant effect on churn.
 
 📝 License:
