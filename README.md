@@ -1,116 +1,92 @@
+# 📊 Customer Churn Analysis 🔍
 
-📊 Customer Churn Analysis 🔍
+---
 
-📄 Project Overview:
-This project aims to analyze customer churn within a telecommunications company using a dataset containing customer demographics, services, and account information. The goal is to identify patterns and factors contributing to customer churn and provide insights to improve retention strategies.
+## 📄 Project Overview
 
-🗂 Table of Contents
+This project analyzes customer churn within a telecommunications company using a dataset containing customer demographics, account details, and subscribed services. The objective is to uncover patterns and factors influencing customer churn and provide actionable insights for improving customer retention.
 
-Technologies Used
+---
 
-Dataset
+## 🗂 Table of Contents
 
-Visualizations
+- Technologies Used  
+- Dataset  
+- Data Cleaning and Preprocessing  
+- Visualizations  
+- How to Run  
+- Analysis Insights  
+- License  
+- Notes for Users  
+- Conclusion  
 
-How to Run
+---
 
-Analysis Insights
+## 🛠 Technologies Used
 
-License
+- 🐍 **Python** — Core programming language used  
+- 📊 **Pandas** — For data manipulation and preprocessing  
+- 📈 **Seaborn** — Advanced statistical data visualization  
+- 🖼 **Matplotlib** — Customizable plotting library  
+- 📝 **Jupyter Notebook** — Interactive notebook environment
 
-                 
-🛠 Technologies Used
+---
 
-🐍 Python: Main programming language for data analysis and visualization.
+## 🗃 Dataset
 
-📊 Pandas: Data manipulation and analysis library.
+The dataset `Customer Churn.csv` contains:
 
-📈 Seaborn: For advanced data visualization.
+- **Demographics**: Gender, age, senior citizen status  
+- **Account Info**: Tenure, contract type, payment method  
+- **Service Details**: Subscriptions such as OnlineSecurity, TechSupport, StreamingTV  
+- **Target**: `Churn` column (Yes/No) — whether the customer has churned
 
-🖼 Matplotlib: For basic visualizations and plotting.
+---
 
-📝 Jupyter Notebook: Interactive environment for running and documenting the analysis.
+## 🧹 Data Cleaning and Preprocessing
 
-🗃 Dataset
+- Handled missing values in `TotalCharges` by filling with `0`  
+- Converted numeric categorical fields (e.g., `SeniorCitizen`) into readable labels  
+- Encoded binary service columns (`Yes/No`) for easier plotting
 
-The dataset Customer Churn.csv includes the following features:
+---
 
-Customer Demographics: Age, gender, senior citizen status.
+## 📊 Visualizations
 
-Account Information: Tenure, contract type, payment method.
+This notebook includes the following insights visualized using plots:
 
-Service Subscriptions: Whether the customer has subscribed to services like OnlineSecurity, TechSupport, StreamingTV, etc.
+1. **Churn Distribution**  
+   - Shows total customers who churned vs. retained  
+   - Helps measure the imbalance in target variable
 
-Target Variable: Churn (Yes/No) — indicates whether the customer has churned or stayed.
+2. **Senior Citizens vs Non-Senior Citizens**  
+   - Compares churn behavior by age group  
+   - Indicates higher churn in senior citizens
 
-🧹 Data Cleaning and Preprocessing
+3. **Churn by Tenure**  
+   - Visualizes how long-term customers behave differently  
+   - Short-tenure customers churn more
 
-Missing values in TotalCharges are replaced with 0.
+4. **Contract Type vs Churn**  
+   - Bar chart comparing churn across Month-to-month, One-year, and Two-year contracts  
+   - Month-to-month has highest churn
 
-Columns like SeniorCitizen are transformed into categorical labels (Yes/No) for easier analysis.
+5. **Payment Method Impact**  
+   - Electronic checks are most associated with high churn
 
-📊 Visualizations
+6. **Service Subscriptions Impact**  
+   - Count plots for services like:
+     - `TechSupport`
+     - `StreamingTV`
+     - `OnlineSecurity`  
+   - Shows customers with no added services tend to leave
 
-This project includes several visualizations to help understand customer churn patterns:
+> 🔍 *All plots are saved inside the `/images` folder.*
 
-Churn Distribution: A bar chart showing the count and percentage of customers who churned vs. those who stayed.
+---
 
-Senior Citizens vs Non-Senior Citizens Churn: Insights into churn based on senior citizen status.
+## 💻 How to Run
 
-Churn by Tenure: How customer tenure impacts churn.
-
-Contract Type Churn Analysis: Comparison of churn based on contract types.
-
-Payment Method Churn: Analysis of churn patterns based on payment methods.
-
-Service Subscription Impact: Multiple countplots showing churn behavior across various services like PhoneService, TechSupport, StreamingTV, etc.
-
-All visualizations are saved in the /images folder.
-
-💻 How to Run
-
-Clone the Repository:
-
-git clone https://github.com/your-username/Customer-Churn-Analysis.git
-Install Required Libraries:
-Ensure you have the necessary Python libraries installed:
-
-pip install pandas seaborn matplotlib jupyter
-Open Jupyter Notebook:
-Launch Jupyter Notebook from the command line:
-jupyter notebook
-
-Run the Notebook:
-
-Open Customer_Churn_Analysis.ipynb in Jupyter and execute all cells to perform the analysis and generate visualizations.
-
-Data File:
-Make sure the Customer Churn.csv file is in the same directory as the notebook.
-
-📈 Analysis Insights
-
-Churn Distribution: The analysis shows the overall churn rate and breaks it down by contract types, payment methods, and other factors.
-
-Senior Citizens: Senior citizens display a distinct churn pattern when compared to non-senior citizens.
-
-Tenure: Customers with shorter tenures tend to have higher churn rates.
-
-Contract Type: Month-to-month contracts are linked to higher churn rates compared to longer-term contracts.
-
-Payment Method: Customers using electronic checks tend to churn at higher rates.
-
-Service Subscriptions: Subscriptions to services like TechSupport, StreamingTV, and OnlineSecurity have a significant effect on churn.
-
-📝 License
-
-This project is open-source and intended for educational purposes. Feel free to fork or contribute to the repository.
-
-💡 Notes for Users
-
-Customization: The notebook allows you to easily modify and explore additional analyses or add more features to the dataset.
-
-Improvements: You can extend the analysis by applying machine learning models or incorporating feature engineering techniques to predict customer churn more accurately.
-
-🎯 Conclusion
-
-This analysis helps us understand which factors contribute to customer churn, giving insights that can help businesses design retention strategies, such as offering targeted discounts, personalized services, or better contract terms, to reduce churn and improve customer loyalty.
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/your-username/Customer-Churn-Analysis.git
