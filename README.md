@@ -88,16 +88,18 @@ This notebook includes the following insights visualized using plots:
 ## 💻 How to Run
 
 1. **Clone the Repository**  
-   ```bash
+   
    git clone https://github.com/Nafay-Aftab/Customer-Churn-Analysis.git
 
 2. **Install Required Libraries**
+
    pip install pandas seaborn matplotlib jupyter
 
-3. **Launch Jupyter Notebook**
+4. **Launch Jupyter Notebook**
+   
    jupyter notebook
 
-4. **Run the Notebook**
+5. **Run the Notebook**
    Open Customer_Churn_Analysis.ipynb
    Make sure Customer Churn.csv is in the same folder
    Run all cells to generate plots and insights
