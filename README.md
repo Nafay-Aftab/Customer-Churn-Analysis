@@ -102,6 +102,14 @@ This notebook includes the following insights visualized using plots:
    Make sure Customer Churn.csv is in the same folder
    Run all cells to generate plots and insights
    
+---
+   
+   ### 🙋‍♂️ About Me
+I'm a university student practicing Data Science by working on real-world datasets. This project is part of my learning journey where I apply concepts of data wrangling and visualization.
+Let’s connect on LinkedIn and grow together!
+
+LinkedIn: [Nafay Aftab](https://www.linkedin.com/in/muhammad-nafay-aftab-233138346/)
+   
 
 
 
